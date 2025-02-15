@@ -13,7 +13,7 @@ function Announcement() {
 
 
   return (
-	  <>
+	  <div style={{width:'90vw' , margin:'auto'}}>
 		  <form action="">
 			  <p>Add Announcement</p>
 			  <label> Title:</label>
@@ -23,10 +23,10 @@ function Announcement() {
 			  <button type="submit" onClick={handleSubmit}>Add</button>
 		  </form>
 		  <div>
-			  <h2>Previous Announcement</h2>
+			  <h2>Previous Announcements</h2>
 			  <AnnouncementDetails/>
 		  </div>
-	  </>
+	  </div>
   )
 }
 

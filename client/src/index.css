@@ -16,7 +16,6 @@ form {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-	width: 40vw;
 	height: auto;
 	margin: 20vh auto;
 	padding: 30px;
@@ -44,7 +43,8 @@ input{
 	border-radius: 4px;
 }
 
-button{
+form button{
+	cursor: pointer;
 	font-weight: 400;
 	border-radius: 3px;
 	color:white;
@@ -53,4 +53,20 @@ button{
 	margin-bottom:0;
 	height: 36px;
 	width:90px;
+}
+
+.functionality-btn{
+	cursor: pointer;
+	font-weight: 400;
+	border-radius: 3px;
+	color:white;
+	background: #007FFF;
+	margin:30px 5px;
+	margin-bottom:0;
+	height: 30px;
+	width:90px;
+}
+
+button:hover{
+	background-color: black;
 }

@@ -17,16 +17,14 @@ function AnnouncementDetails() {
   }
 
   return (
-    <>
-      <div style={{ backgroundColor: '#F0F8FF', margin:'20px auto', padding:'10px'}}>
+      < div className='bg-[#F0F8FF] my-[20px] mx-[auto] p-[10px]'>
         <h2>{announcement.title}</h2>
         <p>{announcement.content}</p>
         <p>{announcement.createdAt}</p>
         <p>{announcement.author}</p>
         <button onClick={()=>handleEdit} className='functionality-btn'>Edit</button>
         <button onClick={()=>handleDelete} className='functionality-btn'>Delete</button>
-      </div>
-    </>
+    </div>
   )
 }
 
